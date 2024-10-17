@@ -1,2 +1,1 @@
-# rxjs-starter
-rxjs project starter
+# react-zustand

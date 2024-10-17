@@ -1,0 +1,44 @@
+.slider {
+    position: relative;
+    width: calc(100vw - 248px);
+    height: 100vh;
+    overflow: hidden;
+  
+    &__wrapper {
+      height: 100vh;
+      transition: all linear;
+      will-change: transform;
+    }
+  
+    &__btn {
+      position: absolute;
+      top: 0;
+      height: 100vh;
+      border: 0;
+      background: none;
+    //   width: 7vw;
+      cursor: pointer;
+      outline: 0;
+  
+      &--prev {
+        left: 0;
+      }
+  
+      &--next {
+        right: 0;
+      }
+    }
+    
+    &__item {
+      width: 100vw;
+      height: 100vh;
+      float: left;
+      line-height: 100vh;
+      font-size: 40vh;
+      text-align: center;
+    }
+  }
+  
+  
+  
+  

@@ -1,0 +1,22 @@
+body {
+    font-family: 'europa';
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-weight: 300;
+  }
+  
+  #dragTarget {
+      // background-image: url(logo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 200px;
+      width: 200px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 10px;
+      position: absolute;
+      cursor: move;
+  }
