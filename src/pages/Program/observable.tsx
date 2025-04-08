@@ -8,6 +8,7 @@ const Observable = () => {
             observer.next(20);
             observer.complete();
         });
+
         setTimeout(() => {
             ob.subscribe(console.log);
         }, 1000);

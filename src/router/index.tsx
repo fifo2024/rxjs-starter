@@ -11,6 +11,8 @@ const Page404 = lazy(() => import("~/pages/404"));
 const Example = lazy(() => import("~/pages/Example"));
 const Program = lazy(() => import("~/pages/Program"));
 
+console.log("router::");
+
 const routes: RouteObject[] = [
     {
         path: "/",
@@ -40,6 +42,8 @@ const routes: RouteObject[] = [
     },
 ];
 
-export default createBrowserRouter(routes, {
+const router = createBrowserRouter(routes, {
     basename: "/",
 });
+
+export default router;

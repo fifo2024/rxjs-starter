@@ -39,6 +39,8 @@ const BasicLayout = () => {
         navigate(key);
     };
 
+    console.log("layout::");
+
     return (
         <Layout style={{ height: "100vh" }}>
             <Sider

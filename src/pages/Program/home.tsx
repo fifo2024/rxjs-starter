@@ -9,6 +9,9 @@ const ProgramIndex = () => {
             <div>
                 <Link to="./observable">Observable</Link>
             </div>
+            <div>
+                <Link to="./observer">Observer</Link>
+            </div>
         </div>
     );
 };
